@@ -24,7 +24,8 @@ import Framework7ThemeColors from 'framework7/dist/css/framework7.material.color
 // Import Routes
 import Routes from './routes.js'
 
-import App from './App'
+// Import App Component
+import App from './main.vue'
 
 // Init F7 Vue Plugin
 Vue.use(Framework7Vue)
