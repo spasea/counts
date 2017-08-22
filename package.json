@@ -16,6 +16,8 @@
     "dependencies": {
         "cordova-android": "^6.2.3",
         "cordova-browser": "^4.1.0",
+        "cordova-plugin-console": "^1.0.7",
+        "cordova-plugin-vibration": "^2.1.5",
         "cordova-plugin-whitelist": "1",
         "framework7": "^1.5.2",
         "framework7-vue": "^0.7.6",
@@ -90,7 +92,9 @@
     },
     "cordova": {
         "plugins": {
-            "cordova-plugin-whitelist": {}
+            "cordova-plugin-whitelist": {},
+            "cordova-plugin-vibration": {},
+            "cordova-plugin-console": {}
         },
         "platforms": [
             "android",

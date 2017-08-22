@@ -153,5 +153,27 @@
 </template>
 
 <script>
-export default {}
+export default {
+  mounted() {
+    var interval;
+    var count = 1;
+    var time = 500;
+    interval = setInterval(function() {
+      if (count % 3 == 0) {
+        navigator.vibrate(400);
+        time = 500;
+      } else if (count % 3 == 1) {
+        navigator.vibrate(200);
+        time = 500;
+      } else {
+        navigator.vibrate(200);
+        time = 700;
+      }
+      count++;
+      if (count == 8) {
+        clearInterval(interval);
+      }
+    }, time);
+  }
+}
 </script>

@@ -9,6 +9,12 @@
     "installed_plugins": {
         "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "com.spasea.counts"
+        },
+        "cordova-plugin-vibration": {
+            "PACKAGE_NAME": "com.spasea.counts"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.spasea.counts"
         }
     },
     "dependent_plugins": {}
